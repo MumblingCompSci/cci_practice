@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42c414c4-d47c-4b63-bbca-646d198bf950" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XpUjgKwY5uErAqhRW0otcB3sMU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArraysAndStrings_tests">
+    <configuration name="ArraysAndStrings_tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cci_practice" />
+      <option name="PACKAGE_NAME" value="cci_practice_test" />
+      <option name="MAIN_CLASS_NAME" value="cci_practice_test.ArraysAndStrings_tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysAndStrings_tests.isUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cci_practice" />
+      <option name="PACKAGE_NAME" value="cci_practice_test" />
+      <option name="MAIN_CLASS_NAME" value="cci_practice_test.ArraysAndStrings_tests" />
+      <option name="METHOD_NAME" value="isUnique" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArraysAndStrings_tests" />
+        <item itemvalue="JUnit.ArraysAndStrings_tests.isUnique" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42c414c4-d47c-4b63-bbca-646d198bf950" name="Default Changelist" comment="" />
+      <created>1581742666004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581742666004</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="201" width="806" height="675" key="#Project_Structure" timestamp="1581742801471">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="201" width="806" height="675" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1581742801471" />
+    <state x="732" y="402" width="456" height="285" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581744010173">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="732" y="402" width="456" height="285" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1581744010173" />
+    <state width="1876" height="289" key="GridCell.Tab.0.bottom" timestamp="1581744131948">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581744131948" />
+    <state width="1876" height="289" key="GridCell.Tab.0.center" timestamp="1581744131948">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581744131948" />
+    <state width="1876" height="289" key="GridCell.Tab.0.left" timestamp="1581744131948">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581744131948" />
+    <state width="1876" height="289" key="GridCell.Tab.0.right" timestamp="1581744131948">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581744131948" />
+    <state x="456" y="175" key="SettingsEditor" timestamp="1581743281857">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="456" y="175" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581743281857" />
+    <state x="760" y="321" width="395" height="436" key="chooseDestDirectoryDialog" timestamp="1581743100331">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="760" y="321" width="395" height="436" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581743100331" />
+    <state x="648" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1581742671147">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="648" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581742671147" />
+    <state x="687" y="437" width="542" height="222" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581744025475">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="687" y="437" width="542" height="222" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1581744025475" />
+    <state x="621" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1581742809347">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="621" y="187" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581742809347" />
+  </component>
+</project>
