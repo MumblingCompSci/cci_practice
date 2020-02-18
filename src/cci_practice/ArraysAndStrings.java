@@ -25,25 +25,10 @@ public class ArraysAndStrings {
      * Given two strings, write a method to determine if one is a permutation of the other.
      *
      * This implementation only works if the permutations are case sensitive
-     * TODO: make this work for any characters
      */
-//    public static boolean checkPermutation(String strA, String strB) {
-//        if (strA.length() != strB.length()) return false;
-//
-//        int[] countA = new int[26], countB = new int[26];
-//
-//        for (int i = 0; i < (strA.length()); i++) {
-//            countA[strA.charAt(i) - 'a']++;
-//            countB[strB.charAt(i) - 'a']++;
-//        }
-//
-//        for (int i = 0; i < 26; i++) {
-//            if (countA[i] != countB[i]) return false;
-//        }
-//
-//        return true;
-//    }
     public static boolean checkPermutation(String strA, String strB) {
+        if (strA == null || strB == null) return false;
+        if (strA.equals(strB)) return true;
         if (strA.length() != strB.length()) return false;
 
         HashMap<Character, Integer> countsA = new HashMap<Character, Integer>();

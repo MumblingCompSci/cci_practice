@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c414c4-d47c-4b63-bbca-646d198bf950" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cci_practice/ArraysAndStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cci_practice/ArraysAndStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cci_practice_test/ArraysAndStrings_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cci_practice_test/ArraysAndStrings_tests.java" afterDir="false" />
@@ -139,22 +138,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="732" y="402" width="456" height="285" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1581744010173" />
-    <state width="1876" height="289" key="GridCell.Tab.0.bottom" timestamp="1581747974390">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1874" height="188" key="GridCell.Tab.0.bottom" timestamp="1582008264389">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581747974390" />
-    <state width="1876" height="289" key="GridCell.Tab.0.center" timestamp="1581747974390">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1874" height="188" key="GridCell.Tab.0.bottom/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582008264389" />
+    <state width="1874" height="188" key="GridCell.Tab.0.center" timestamp="1582008264389">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581747974390" />
-    <state width="1876" height="289" key="GridCell.Tab.0.left" timestamp="1581747974390">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1874" height="188" key="GridCell.Tab.0.center/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582008264389" />
+    <state width="1874" height="188" key="GridCell.Tab.0.left" timestamp="1582008264388">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581747974390" />
-    <state width="1876" height="289" key="GridCell.Tab.0.right" timestamp="1581747974390">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1874" height="188" key="GridCell.Tab.0.left/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582008264388" />
+    <state width="1874" height="188" key="GridCell.Tab.0.right" timestamp="1582008264389">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581747974390" />
+    <state width="1874" height="188" key="GridCell.Tab.0.right/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582008264389" />
     <state width="1876" height="357" key="GridCell.Tab.1.bottom" timestamp="1581747935445">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -179,10 +182,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="760" y="321" width="395" height="436" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581743100331" />
-    <state x="648" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1581742671147">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="540" y="486" key="com.intellij.ide.util.TipDialog" timestamp="1582005571381">
+      <screen x="0" y="180" width="1600" height="900" />
     </state>
     <state x="648" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581742671147" />
+    <state x="540" y="486" key="com.intellij.ide.util.TipDialog/0.180.1600.900/1600.0.1920.1080@0.180.1600.900" timestamp="1582005571381" />
     <state x="687" y="437" width="542" height="222" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581744025475">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -191,16 +195,5 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="621" y="187" width="672" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581745992677" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cci_practice/ArraysAndStrings.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

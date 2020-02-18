@@ -23,10 +23,14 @@ public class ArraysAndStrings_tests {
     public void checkPermutationTrue() {
         assertTrue(checkPermutation("abc", "cab"));
         assertTrue(checkPermutation("abcdefghijklm", "mlkjiabcdefgh"));
+        assertTrue(checkPermutation("aAA21@\\a3","AAa12\\@a3"));
+        assertTrue(checkPermutation("", ""));
     }
     @Test
     public void checkPermutationFalse() {
         assertFalse(checkPermutation("abc", "abcd"));
         assertFalse(checkPermutation("abcdefghijklmnop", "aaaaaaaaaaaaaaaa"));
+        assertFalse(checkPermutation("aAA21@\\a3","AAa12\\@a"));
+        assertFalse(checkPermutation(null, null));
     }
 }
