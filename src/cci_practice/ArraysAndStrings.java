@@ -31,8 +31,8 @@ public class ArraysAndStrings {
         if (strA.equals(strB)) return true;
         if (strA.length() != strB.length()) return false;
 
-        HashMap<Character, Integer> countsA = new HashMap<Character, Integer>();
-        HashMap<Character, Integer> countsB = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> countsA = new HashMap<>();
+        HashMap<Character, Integer> countsB = new HashMap<>();
 
         for (int i = 0; i < strA.length(); i++) {
             char current = strA.charAt(i);
@@ -56,4 +56,6 @@ public class ArraysAndStrings {
 
         return true;
     }
+
+
 }
