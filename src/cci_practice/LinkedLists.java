@@ -15,10 +15,9 @@ public class LinkedLists {
 
         while(stepper.hasNext()) {
             int current = stepper.next();
-            ListIterator<Integer> runner = stepper;
 
-            while(runner.hasNext()) {
-                if (current == runner.next()) runner.remove();
+            while(stepper.hasNext()) {
+                if (current == stepper.next()) stepper.remove();
             }
         }
 

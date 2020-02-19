@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="42c414c4-d47c-4b63-bbca-646d198bf950" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cci_practice/cci_practice/ArraysAndStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cci_practice/cci_practice/ArraysAndStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cci_practice/cci_practice_test/ArraysAndStrings_tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cci_practice/cci_practice_test/ArraysAndStrings_tests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cci_practice/LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cci_practice/LinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cci_practice_test/ArraysAndStrings_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cci_practice_test/ArraysAndStrings_tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cci_practice_test/LinkedLists_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cci_practice_test/LinkedLists_tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedLists_tests.kthToLastTest">
+  <component name="RunManager" selected="JUnit.LinkedLists_tests">
     <configuration name="ArraysAndStrings_tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cci_practice" />
       <option name="PACKAGE_NAME" value="cci_practice_test" />
@@ -128,9 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedLists_tests" />
         <item itemvalue="JUnit.LinkedLists_tests.kthToLastTest" />
         <item itemvalue="JUnit.ArraysAndStrings_tests.isUniqueTrue" />
-        <item itemvalue="JUnit.LinkedLists_tests" />
         <item itemvalue="JUnit.LinkedLists_tests.removeDuplicatesTest" />
         <item itemvalue="JUnit.ArraysAndStrings_tests" />
       </list>
@@ -154,12 +153,20 @@
       <option name="project" value="LOCAL" />
       <updated>1582013868041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="question 2.2 and tests">
+      <created>1582074320195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582074320195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="question 2.1 and tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 2.1 and tests" />
+    <MESSAGE value="question 2.2 and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 2.2 and tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="529" y="193" width="857" height="694" key="#ArraysAndStrings_tests.isUniqueTrue" timestamp="1581744969030">
@@ -174,30 +181,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="732" y="402" width="456" height="285" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1581744010173" />
-    <state x="2207" y="136" width="695" height="803" key="CommitChangelistDialog2" timestamp="1582013867920">
+    <state x="2207" y="136" width="695" height="803" key="CommitChangelistDialog2" timestamp="1582074319974">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2207" y="136" width="695" height="803" key="CommitChangelistDialog2/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582013867920" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1582074225343">
+    <state x="2207" y="136" width="695" height="803" key="CommitChangelistDialog2/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074319974" />
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1582074510748">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581747974390" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074225343" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1582074225343">
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074510748" />
+    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1582074510747">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581747974390" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074225343" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1582074225342">
+    <state width="1874" height="289" key="GridCell.Tab.0.center/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074510747" />
+    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1582074510747">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581747974390" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074225342" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1582074225343">
+    <state width="1874" height="289" key="GridCell.Tab.0.left/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074510747" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1582074510748">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581747974390" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074225343" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right/0.180.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1582074510748" />
     <state width="1876" height="357" key="GridCell.Tab.1.bottom" timestamp="1581747935445">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

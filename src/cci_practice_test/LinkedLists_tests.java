@@ -12,14 +12,7 @@ public class LinkedLists_tests {
 
     @Test
     public void removeDuplicatesTest() {
-        LinkedList<Integer> testList = new LinkedList<>();
-
-        testList.add(10);
-        testList.add(29);
-        testList.add(10);
-        testList.add(30);
-        testList.add(10);
-        testList.add(10);
+        LinkedList<Integer> testList = new LinkedList<>(List.of(10, 20, 10, 30, 10));
 
         LinkedList<Integer> output = removeDuplicates(testList);
         assertEquals(3, output.size());
