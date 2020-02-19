@@ -10,13 +10,13 @@ public class ArraysAndStrings_tests {
 
     @Test
     public void isUniqueTrue() {
-        Assert.assertTrue(isUnique("abcdefghijk"));
-        Assert.assertTrue(isUnique("asdfjkl;2io1976"));
+        Assert.assertTrue("abcdefghijk is unique", isUnique("abcdefghijk"));
+        Assert.assertTrue("asdfjkl;2io1976 is unique", isUnique("asdfjkl;2io1976"));
     }
     @Test
     public void isUniqueFalse() {
-        Assert.assertFalse(isUnique("aAa"));
-        Assert.assertFalse(isUnique("abcdefghijklmnopqrstuvwxyzz"));
+        Assert.assertFalse("aAa is not unique", isUnique("aAa"));
+        Assert.assertFalse("abcdefghijklmnopqrstuvwxyzz is not unique", isUnique("abcdefghijklmnopqrstuvwxyzz"));
     }
 
     @Test
