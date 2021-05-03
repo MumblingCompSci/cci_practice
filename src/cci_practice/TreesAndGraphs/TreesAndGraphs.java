@@ -1,17 +1,20 @@
-package cci_practice;
+package cci_practice.TreesAndGraphs;
 
+import java.lang.reflect.Array;
 import java.util.*;
+
 
 public class TreesAndGraphs {
 
-    public class BinaryNode<T> {
+    public static class BinaryNode<T> {
         BinaryNode left = null;
         BinaryNode right = null;
+        Boolean isRoot = false;
 
         T data;
     }
 
-    public class Node {
+    public static class Node {
         ArrayList<Node> adjList;
         int data;
         boolean visited;
@@ -21,6 +24,73 @@ public class TreesAndGraphs {
             visited = false;
             adjList = new ArrayList<>();
         }
+    }
+    /** 4.2
+     * Minimal Tree:
+     * Given a sorted (increasing order) array with unique integer elements,
+     * write an algorithm to create a binary search tree with minimal height.
+     */
+
+    public static class IntTree {
+
+        public static IntNode root;
+        public static ArrayList<IntNode> nodes;
+
+
+        public static class IntNode {
+            public int data;
+            public IntNode left;
+            public IntNode right;
+
+            public IntNode(int data) {
+                this.data = data;
+                this.left = null;
+                this.right = null;
+            }
+        }
+
+        public IntTree(IntNode root) {
+            this.root = root;
+            this.nodes = new ArrayList<IntNode>();
+            nodes.add(root);
+        }
+
+        private static void sort(IntNode check, IntNode insert) {
+            if (check.data == insert.data) return;
+            if (insert.data < check.data) {
+                if (check.left == null) check.left = insert;
+                else sort(check.left, insert);
+            }
+            if (insert.data > check.data) {
+                if (check.right == null) check.right = insert;
+                else sort(check.right, insert);
+            }
+        }
+        public static void insert(IntNode insert) {
+            nodes.add(insert);
+            sort(root, insert);
+        }
+
+        private int heightCheck(IntNode node) {
+            if (node == null) return -1;
+            int left = heightCheck(node.left);
+            int right = heightCheck(node.right);
+
+            if (left > right) return left + 1;
+            else return right + 1;
+        }
+        public int getHeight() {
+            return heightCheck(root);
+        }
+    }
+
+
+    public IntTree minimumHeight(int[] input) {
+        IntTree tree = new IntTree(new IntTree.IntNode(input[0]));
+
+        for (int i = 1; i < input.length; i++) IntTree.insert(new IntTree.IntNode(input[i]));
+
+        return tree;
     }
 
     /** 4.1
@@ -68,11 +138,8 @@ public class TreesAndGraphs {
         return false;
     }
 
-    /** 4.2
-     * Minimal Tree:
-     * Given a sorted (increasing order) array with unique integer elements,
-     * write an algorithm to create a binary search tree with minimal height.
-     */
+
+
 
     /** 4.3
      * List of Depths:

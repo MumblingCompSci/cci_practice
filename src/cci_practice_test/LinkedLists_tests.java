@@ -10,6 +10,7 @@ import java.util.List;
 
 public class LinkedLists_tests {
 
+    /** For 2.1 */
     @Test
     public void removeDuplicatesTest() {
         LinkedList<Integer> testList = new LinkedList<>(List.of(10, 20, 10, 30, 10));
@@ -25,6 +26,7 @@ public class LinkedLists_tests {
         assertEquals(7, output.size());
     }
 
+    /** For 2.2 */
     @Test
     public void kthToLastTest() {
         LinkedList<Integer> list = new LinkedList<>(List.of(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15));

@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 
 public class ArraysAndStrings_tests {
 
+    /** For 1.1 */
     @Test
     public void isUniqueTrue() {
         Assert.assertTrue("abcdefghijk is unique", isUnique("abcdefghijk"));
@@ -19,6 +20,7 @@ public class ArraysAndStrings_tests {
         Assert.assertFalse("abcdefghijklmnopqrstuvwxyzz is not unique", isUnique("abcdefghijklmnopqrstuvwxyzz"));
     }
 
+    /** For 1.2 */
     @Test
     public void checkPermutationTrue() {
         assertTrue(checkPermutation("abc", "cab"));
